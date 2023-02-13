@@ -1,5 +1,5 @@
-# Data Engineering - build a data pipeline around New York City Taxi Trip Record Data - pickups and drop-offs
- 
+# Data Engineering - build a data pipeline around New York City Taxi and Limousine Commission (TLC) trip record data - pickups and drop-offs
+
 ## This project intents to utilise the following technologies to emulate real world data engineering project:
 
 1. Kafka: Streaming
@@ -11,3 +11,14 @@
 7. Airflow or Prefect: Pipeline Orchestration
 8. DBT: Data Transformation
 9. Spark: Distributed Processing
+10. Phyton programming
+11. Version control: Git/GitHub
+
+
+## Setting up the environment
+
+Test and verify that docker is working by creating image and running container.
+
+Create postgreSQL container and pull data from NYC TLC website (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
+Data dictionary: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
